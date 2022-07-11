@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+
+{% block articles %}
+    {% for foo in lista %}
+        <article class="style1">
+        <span class="image">
+            <img src="{{ foo.media.url }}"  alt=""/>
+        </span>
+            <a href="{{ foo.link }}">
+                <h2>{{ foo.title }}</h2>
+                <div class="content">
+                    <p>{{ foo.description}}</p>
+                </div>
+            </a>
+        </article>
+    {% endfor %}
+
+
+{% endblock %}
