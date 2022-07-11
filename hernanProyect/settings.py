@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'hernanProyect.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'hernanproject',
-        'USER': 'sbritos',
-        'PASSWORD': "Penenayger5",
-        'HOST': 'localhost',
+        'NAME': 'dujj3duacp4ch',
+        'USER': 'jwvgxfdudywnly',
+        'PASSWORD': "d42f3a96a2dd8a488e2a4d2992d5118d169405f7696c8033b44ddadd19a1efbd",
+        'HOST': 'ec2-34-242-84-130.eu-west-1.compute.amazonaws.com',
         'PORT': '5432',
     }
 }
